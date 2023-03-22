@@ -14,6 +14,7 @@ struct Screen_TimeApp: App {
     let center = AuthorizationCenter.shared
     @State var show = false
     
+    
     var body: some Scene {
         WindowGroup {
             VStack {
@@ -22,7 +23,8 @@ struct Screen_TimeApp: App {
                 } else {
                     STProgressView()
                 }
-            }.onAppear {
+            }
+            .onAppear {
                 Task {
                     do {
                         try await center.requestAuthorization(for: FamilyControlsMember.individual)

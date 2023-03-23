@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		024568DF9D3B0D3D6B6507D1 /* Pods_MonitorExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22DAD96320723FA1B2631FF3 /* Pods_MonitorExtension.framework */; };
 		737E3E8F2886A57500ECE164 /* Screen_TimeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 737E3E8E2886A57500ECE164 /* Screen_TimeApp.swift */; };
 		737E3E912886A57500ECE164 /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 737E3E902886A57500ECE164 /* ChartView.swift */; };
 		737E3E932886A57600ECE164 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 737E3E922886A57600ECE164 /* Assets.xcassets */; };
@@ -16,7 +17,10 @@
 		73B3B35728930ADE0079AAC4 /* TotalActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B3B35628930ADE0079AAC4 /* TotalActivityView.swift */; };
 		73B3B35C28930ADE0079AAC4 /* MonitorExtension.appex in Embed ExtensionKit Extensions */ = {isa = PBXBuildFile; fileRef = 73B3B35028930ADE0079AAC4 /* MonitorExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		73B3B36128930B440079AAC4 /* AppDeviceActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B3B36028930B440079AAC4 /* AppDeviceActivity.swift */; };
+		8A97A5D8B9ED82F33DE532DA /* Pods_Screen_Time.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8B490A9793BCC627F8919B0 /* Pods_Screen_Time.framework */; };
 		E5FE204B29CAADCD00F5F092 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5FE204929CAADC600F5F092 /* MediaPlayer.framework */; };
+		E5FE204F29CBEE1D00F5F092 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E5FE204E29CBEE1D00F5F092 /* GoogleService-Info.plist */; };
+		E5FE205129CC04B400F5F092 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5FE205029CC04B400F5F092 /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +58,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		22DAD96320723FA1B2631FF3 /* Pods_MonitorExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MonitorExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		364FC4BD7F0502C87BC68AC5 /* Pods-Screen Time.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Screen Time.release.xcconfig"; path = "Target Support Files/Pods-Screen Time/Pods-Screen Time.release.xcconfig"; sourceTree = "<group>"; };
+		3DBE90A47D52E8495E57E57D /* Pods-Screen Time.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Screen Time.debug.xcconfig"; path = "Target Support Files/Pods-Screen Time/Pods-Screen Time.debug.xcconfig"; sourceTree = "<group>"; };
 		737E3E8B2886A57500ECE164 /* Screen Time.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Screen Time.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		737E3E8E2886A57500ECE164 /* Screen_TimeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Screen_TimeApp.swift; sourceTree = "<group>"; };
 		737E3E902886A57500ECE164 /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
@@ -67,8 +74,13 @@
 		73B3B35828930ADE0079AAC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		73B3B35928930ADE0079AAC4 /* MonitorExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MonitorExtension.entitlements; sourceTree = "<group>"; };
 		73B3B36028930B440079AAC4 /* AppDeviceActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDeviceActivity.swift; sourceTree = "<group>"; };
+		9C6154BFC80E78197EE949DD /* Pods-MonitorExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MonitorExtension.debug.xcconfig"; path = "Target Support Files/Pods-MonitorExtension/Pods-MonitorExtension.debug.xcconfig"; sourceTree = "<group>"; };
+		C8B490A9793BCC627F8919B0 /* Pods_Screen_Time.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Screen_Time.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5FE204729C98D3F00F5F092 /* Screen-Time-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Screen-Time-Info.plist"; sourceTree = SOURCE_ROOT; };
 		E5FE204929CAADC600F5F092 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		E5FE204E29CBEE1D00F5F092 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E5FE205029CC04B400F5F092 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E6D049A508ABB84B17D66BA1 /* Pods-MonitorExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MonitorExtension.release.xcconfig"; path = "Target Support Files/Pods-MonitorExtension/Pods-MonitorExtension.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +89,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E5FE204B29CAADCD00F5F092 /* MediaPlayer.framework in Frameworks */,
+				8A97A5D8B9ED82F33DE532DA /* Pods_Screen_Time.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,12 +97,24 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				024568DF9D3B0D3D6B6507D1 /* Pods_MonitorExtension.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0990F2D2BB0D9C4A2ADFFB70 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9C6154BFC80E78197EE949DD /* Pods-MonitorExtension.debug.xcconfig */,
+				E6D049A508ABB84B17D66BA1 /* Pods-MonitorExtension.release.xcconfig */,
+				3DBE90A47D52E8495E57E57D /* Pods-Screen Time.debug.xcconfig */,
+				364FC4BD7F0502C87BC68AC5 /* Pods-Screen Time.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		737E3E822886A57500ECE164 = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +122,7 @@
 				73B3B35128930ADE0079AAC4 /* MonitorExtension */,
 				737E3E8C2886A57500ECE164 /* Products */,
 				E5FE204829CAADC500F5F092 /* Frameworks */,
+				0990F2D2BB0D9C4A2ADFFB70 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -117,7 +143,9 @@
 				737E3E8E2886A57500ECE164 /* Screen_TimeApp.swift */,
 				737E3E902886A57500ECE164 /* ChartView.swift */,
 				737E3E922886A57600ECE164 /* Assets.xcassets */,
+				E5FE204E29CBEE1D00F5F092 /* GoogleService-Info.plist */,
 				737E3E942886A57600ECE164 /* Preview Content */,
+				E5FE205029CC04B400F5F092 /* AppDelegate.swift */,
 			);
 			path = "Screen Time";
 			sourceTree = "<group>";
@@ -147,6 +175,8 @@
 			isa = PBXGroup;
 			children = (
 				E5FE204929CAADC600F5F092 /* MediaPlayer.framework */,
+				22DAD96320723FA1B2631FF3 /* Pods_MonitorExtension.framework */,
+				C8B490A9793BCC627F8919B0 /* Pods_Screen_Time.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -158,11 +188,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 737E3E992886A57600ECE164 /* Build configuration list for PBXNativeTarget "Screen Time" */;
 			buildPhases = (
+				69932A7907DAD15AE4A32928 /* [CP] Check Pods Manifest.lock */,
 				737E3E872886A57500ECE164 /* Sources */,
 				737E3E882886A57500ECE164 /* Frameworks */,
 				737E3E892886A57500ECE164 /* Resources */,
 				737E3EB22886A5E100ECE164 /* Embed Foundation Extensions */,
 				73B3B34828930A170079AAC4 /* Embed ExtensionKit Extensions */,
+				D6E59C8BA433CAA061FCA1EF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -178,6 +210,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 73B3B35D28930ADE0079AAC4 /* Build configuration list for PBXNativeTarget "MonitorExtension" */;
 			buildPhases = (
+				E7B623272365A8AC2CD3E3FB /* [CP] Check Pods Manifest.lock */,
 				73B3B34C28930ADE0079AAC4 /* Sources */,
 				73B3B34D28930ADE0079AAC4 /* Frameworks */,
 				73B3B34E28930ADE0079AAC4 /* Resources */,
@@ -235,6 +268,7 @@
 			files = (
 				737E3E962886A57600ECE164 /* Preview Assets.xcassets in Resources */,
 				737E3E932886A57600ECE164 /* Assets.xcassets in Resources */,
+				E5FE204F29CBEE1D00F5F092 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,11 +281,76 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		69932A7907DAD15AE4A32928 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Screen Time-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D6E59C8BA433CAA061FCA1EF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Screen Time/Pods-Screen Time-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Screen Time/Pods-Screen Time-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Screen Time/Pods-Screen Time-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7B623272365A8AC2CD3E3FB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MonitorExtension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		737E3E872886A57500ECE164 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5FE205129CC04B400F5F092 /* AppDelegate.swift in Sources */,
 				737E3E912886A57500ECE164 /* ChartView.swift in Sources */,
 				737E3E8F2886A57500ECE164 /* Screen_TimeApp.swift in Sources */,
 			);
@@ -395,6 +494,7 @@
 		};
 		737E3E9A2886A57600ECE164 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DBE90A47D52E8495E57E57D /* Pods-Screen Time.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -429,6 +529,7 @@
 		};
 		737E3E9B2886A57600ECE164 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 364FC4BD7F0502C87BC68AC5 /* Pods-Screen Time.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -463,6 +564,7 @@
 		};
 		73B3B35E28930ADE0079AAC4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C6154BFC80E78197EE949DD /* Pods-MonitorExtension.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = MonitorExtension/MonitorExtension.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
@@ -491,6 +593,7 @@
 		};
 		73B3B35F28930ADE0079AAC4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6D049A508ABB84B17D66BA1 /* Pods-MonitorExtension.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = MonitorExtension/MonitorExtension.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";

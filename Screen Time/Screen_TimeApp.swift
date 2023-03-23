@@ -11,6 +11,7 @@ import FamilyControls
 
 @main
 struct Screen_TimeApp: App {
+    @UIApplicationDelegateAdaptor var delegate: AppDelegate
     let center = AuthorizationCenter.shared
     @State var show = false
     
